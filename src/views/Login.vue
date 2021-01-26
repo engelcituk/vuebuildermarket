@@ -18,18 +18,18 @@
             >
               <v-card class="elevation-12">
                 <v-toolbar
-                  color="primary"
+                  color="success"
                   dark
                   flat
                 >
-                  <v-toolbar-title>Login form</v-toolbar-title>
+                  <v-toolbar-title>Login</v-toolbar-title>
                   <v-spacer></v-spacer>
                   
                 </v-toolbar>
                 <v-card-text>
                   <v-form>
                     <v-text-field
-                      label="Login"
+                      label="Username"
                       name="login"
                       prepend-icon="mdi-account"
                       type="text"
@@ -46,7 +46,7 @@
                 </v-card-text>
                 <v-card-actions>
                   <v-spacer></v-spacer>
-                  <v-btn color="primary">Login</v-btn>
+                  <v-btn color="success">Login</v-btn>
                 </v-card-actions>
               </v-card>
             </v-col>

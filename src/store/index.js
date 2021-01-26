@@ -14,7 +14,6 @@ export default new Vuex.Store({
   state: {
     loading: false //lo defino aqui porque lo podría ocupar de manera global
   },
-
   //para modificar el loading
   mutations:{
     setLoading(state,bool) {
