@@ -3,18 +3,21 @@
     <v-navigation-drawer
       v-model="drawer"
       app
+      
     >
       <!--  -->
       <v-sheet
     height="400"
     class="overflow-hidden"
     style="position: relative;"
+    
   >
     
 
     <v-navigation-drawer
       v-model="drawer"
       absolute
+      
       temporary
     >
       <v-list-item>
@@ -35,6 +38,7 @@
           :key="item.title"
           link
         >
+        
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-icon>
@@ -48,7 +52,7 @@
   </v-sheet>
     </v-navigation-drawer>
 
-    <v-app-bar app>
+    <v-app-bar app color="indigo">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Application</v-toolbar-title>

@@ -1,1 +1,1 @@
-require('./vuetify')
+require('./vue-axios')
