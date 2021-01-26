@@ -55,14 +55,14 @@
     </v-app-bar>
 
     <v-main>
-      <!--  -->
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum obcaecati ea adipisci placeat quo deleniti minima consectetur commodi eaque aliquam error impedit cumque, repellat eligendi? In voluptatibus omnis rerum dolore.
     </v-main>
   </v-app>
 </template>
 
 <script>
   export default {
-    data: () => ({ drawer: false ,items: [
+    data: () => ({ drawer: null ,items: [
           { title: 'Home', icon: 'mdi-view-dashboard' },
           { title: 'About', icon: 'mdi-forum' },
         ],}),
