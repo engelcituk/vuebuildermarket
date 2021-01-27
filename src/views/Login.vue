@@ -2,13 +2,11 @@
   <v-container class="fill-height" fluid >
     <v-row align="center" justify="center" >
 
-      <v-col cols="12" sm="8" md="4">
+      <v-col cols="12" sm="8" >
         <v-alert v-model="error" border="left" close-text="Close Alert" color="red accent-2" dark dismissible >
           <div v-html="errorMessage"></div>      
-        </v-alert>
-        
+        </v-alert>        
         <Login :user="user" @login="_login"/>      
-
       </v-col>
     </v-row>
 
@@ -44,3 +42,4 @@ import Login from '@/components/auth/Login'
     }
   }
 </script>
+

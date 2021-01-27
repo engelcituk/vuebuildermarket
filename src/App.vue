@@ -25,7 +25,7 @@ import ListMenu from '@/components/shared/ListMenuSidebar'
 import Navbar from '@/components/shared/Navbar'
 
 export default {
-  data: () => ({ drawer: false}),
+  data: () => ({ drawer: true}),
     components: { 
       Loading,     
       ListMenu,
