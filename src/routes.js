@@ -12,6 +12,10 @@ export default [
       path: '/builder',
       name: 'builder',
       component: () => import(/* webpackChunkName: "Sales" */ './views/Builder.vue'),
-      // meta:{ requiresAuth: true }
-    }    
+      meta:{ requiresAuth: true }
+    },
+    {
+      path: '*',
+      component: () => import(/* webpackChunkName: "Sales" */ './views/NotFound.vue'),      
+    }     
   ]
