@@ -34,7 +34,7 @@
           v-model="selectedItem"
           color="primary"
         >
-          <v-list-item
+          <!-- <v-list-item
             v-for="(item, i) in items"
             :key="i"            
           >
@@ -45,7 +45,30 @@
             <v-list-item-content>
               <v-list-item-title v-text="item.text"></v-list-item-title>
             </v-list-item-content>
+          </v-list-item> -->
+
+          <v-list-item to="/builder">
+            <v-list-item-icon>
+              <b-icon icon="tools"></b-icon>
+            </v-list-item-icon>
+
+            <v-list-item-content>
+              <v-list-item-title>Buider</v-list-item-title>
+            </v-list-item-content>
           </v-list-item>
+
+          <v-list-item to="/campains">
+            <v-list-item-icon>
+              <b-icon icon="list-check" font-scale="1" animation="fade" ></b-icon>              
+            </v-list-item-icon>
+
+            <v-list-item-content>
+              <v-list-item-title>Campains</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+         
+          <!--  -->
+          <v-divider></v-divider>
 
           <v-list-item @click="_logout">
             <v-list-item-icon>
